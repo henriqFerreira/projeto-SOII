@@ -1,0 +1,11 @@
+version: '3'
+services:
+  db:
+    image: mariadb
+    environment:
+      MYSQL_ROOT_PASSWORD: "root123@!"
+      MYSQL_DATABASE: "facul_db"
+      MYSQL_USER: "root"
+      MYSQL_PASSWORD: ""
+    ports:
+      - "3306:3306"
