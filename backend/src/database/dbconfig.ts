@@ -7,7 +7,7 @@ const connection: Sequelize = new Sequelize(
 	"root123@!",
 	{
 		dialect: "mariadb",
-		host: "localhost",
+		host: "192.168.78.22",
 		port: 3306,
 		logging: true,
 		models: [ Aluno ]

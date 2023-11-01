@@ -9,7 +9,7 @@ type Aluno = {
 }
 
 function App() {
-	const BASE_URL: string = "http://192.168.78.22:5000";
+	const BASE_URL: string = "http://localhost:5000";
 	
 	const [alunos, setAlunos] = useState<Aluno[]>([]);
 	const [rerender, setRerender] = useState<boolean>(false);
